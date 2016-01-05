@@ -1,0 +1,136 @@
+body {
+    font-family: Arial,sans-serif;}
+
+.clear {clear: both;}
+.left {float: left;}
+.right {float: right;}
+
+
+.container {
+    /*width: 1200px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*############################*/
+/*naglowek strony*/
+
+
+#naglowek-strony {
+    background-color: aqua;
+}
+
+#naglowek-strony.logo-witryny {
+    width: 250px;
+    height:150px;
+    background-color: red;
+    /*float: left;*/
+}
+
+#naglowek-strony.logo-witryny2 {
+    width: 250px;
+    height:150px;
+    background-color: green;
+    /*float: right;*/
+}
+
+#naglowek-strony.nawigacja-witryny {
+    background-color: yellow;
+    /*float:right;*/
+    margin-top: 50px;
+}
+
+#naglowek-strony.nawigacja-witryny li {
+    display: inline-block;
+}
+
+/*############################*/
+/*tresc strony*/
+
+#tresc-strony {
+background-color: #ffaaaa;
+}
+
+.kafelek {
+    width: 580px;
+    height: 500px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+
+.kwadracik-gorny {
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+}
+
+.kwadracik-dolny {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: coral;
+    right: 0px;
+    bottom: 0px;
+}
+
+.kwadracik-obrazek {
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    width: 480px;
+    height: 400px;
+    background-color: black;
+    background-image: url("Images/krecik.jpg");
+    /*background-size: 127px 72px;*/
+    background-repeat: no-repeat;
+    /*background-size: contain;*/
+    /*background-position: right bottom;*/
+    /*background-position: 12px 45px;*/
+    background-size: cover;
+}
+
+.kafelek header {
+    background-color: plum;
+    height: 50px;
+}
+
+.kafelek footer {
+    background-color: crimson;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+.kolumna {
+    float: left;
+    width:150px;
+    margin-right: 10px;
+    background-color: yellow;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+/*############################*/
+/*stopka strony*/
+
+#stopka-strony {
+    background-color: #555555;
+    color:#fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div {
+    display: block
+}
+
+
+
+
+
+
